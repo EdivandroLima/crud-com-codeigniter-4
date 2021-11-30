@@ -32,7 +32,7 @@ Campos do formuláro para editar
 # Instalação
 Renomear o arquivo .env_example para .env e configurar o banco de dados MySQL
 
-## Instalnado pacotes necessários
+## Instalando pacotes necessários
 ```
 composer install
 ```
@@ -45,4 +45,9 @@ php spark migrate
 ## Executando os seeders (Gerando dados fakes para testes)
 ```
 php spark db:seed UsuarioSeeder
+```
+
+## Iniciar servidor em localhost
+```
+php spark serve
 ```
