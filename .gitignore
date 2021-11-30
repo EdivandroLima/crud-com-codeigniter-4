@@ -1,0 +1,6 @@
+/vendor
+/.vscode
+.env
+/writable/debugbar/*.json
+/writable/logs/*.log
+/writable/session/ci_session*

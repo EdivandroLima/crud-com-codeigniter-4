@@ -1,0 +1,39 @@
+/* Bootstrap */
+@import url('bootstrap.min.css');
+/* Icons Bootstrap */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.7.1/font/bootstrap-icons.min.css');
+/* Botões personalizados */
+@import url('buttons.css');
+
+html,
+body,
+.sidebar-dashboard {
+    min-height: 100vh;
+}
+
+.nav-link:hover {
+    background-color: rgba(200, 200, 200, .2);
+}
+
+
+.pagination li a {
+    background-color: white;
+    display: inline-block;
+    padding: 4px 12px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    text-decoration: none;
+}
+.pagination li a:hover {
+    background-color: #ddd
+}
+.pagination li.active a {
+    background-color: #5f7de3 !important;
+    border-color: #5f7de3 !important;
+    color:white
+}
+
+
+.alert ul {
+    margin-bottom: 0;
+}
